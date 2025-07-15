@@ -1,0 +1,36 @@
+# ======================================
+# .gitignore para proyecto Flask en Python
+# ======================================
+
+# ➤ Ignorar entorno virtual
+venv/
+
+# ➤ Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ➤ Archivos de logs y base de datos local
+*.log
+*.sqlite3
+
+# ➤ Configuración de editores
+.vscode/
+.idea/
+
+# ➤ Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ➤ Archivos temporales y de respaldo
+*.bak
+*.swp
+*.tmp
+*.cache
+
+# ➤ Directorios de build/dist (si usas setup.py o empaquetado)
+*.egg-info/
+dist/
+build/
